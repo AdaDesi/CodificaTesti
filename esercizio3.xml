@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- la dichiarazione xml deve stare nella prima riga -->
+<root> <!--ho aggiunto root per validare un sibling di text-->
+<text>
+    il primo xml con validazione <text> questo è un suo figlio </text>
+</text>
+<text> e questa una sua sorella! </text>
+<!-- <text /> questo tag è sbagliato ed è di troppo-->
+</root>

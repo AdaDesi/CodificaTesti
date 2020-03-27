@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!--This document contains data on Codifica di Testi.
+Filename: project.xml
+Author: Ada Desideri
+Date: 26 marzo 2020
+-->
+
+<root>
+    <elemento1> <elemento2> testo </elemento1> </elemento2>
+</root>
+
+<!--il terminale restituisce l'errore 
+MacBook-Air-di-Ada:~ adadesideri$ xmllint Desktop/Info\ Uma\ primo\ anno/Secondo\ Semestre/Codifica\ di\ testi/esercizio2.xml
+Desktop/Info Uma primo anno/Secondo Semestre/Codifica di testi/esercizio2.xml:10: parser error : Opening and ending tag mismatch: elemento2 line 10 and elemento1
+    <elemento1> <elemento2> testo </elemento1> </elemento2>
+                                              ^
+Desktop/Info Uma primo anno/Secondo Semestre/Codifica di testi/esercizio2.xml:10: parser error : Opening and ending tag mismatch: elemento1 line 10 and elemento2
+    <elemento1> <elemento2> testo </elemento1> </elemento2>
+    -->
