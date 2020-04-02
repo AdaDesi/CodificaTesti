@@ -1,0 +1,7 @@
+<!--esercizio pag. 92 ppt 3-->
+<!ELEMENT tei (header, facsimile?, text+) >
+<!ELEMENT header (#PCDATA) >
+<!ELEMENT facsimile (#PCDATA) >
+<!ELEMENT text (#PCDATA) >
+
+
