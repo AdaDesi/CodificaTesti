@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!DOCTYPE tei SYSTEM "esercizio_dtd.dtd">
+<tei>
+    <header>
+        testo dell'header
+    </header>
+
+    <facsimile source="fonte" ref="id1">
+        blabla del facsimile.
+    </facsimile>
+
+    <text id="id1">
+        blabla del text id1.
+    </text>
+    <text id="id2">
+        <seg>bla bla del seg</seg>
+    </text>
+
+</tei>
