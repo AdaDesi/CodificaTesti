@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="fr">
+        <fileDesc>
+            <titleStmt>
+                <title>L'invention de la menagère - version digitale </title>
+                <author xml:id="SF">
+                    <name>
+                    <surname>Federici</surname>
+                    <forename>Silvia</forename>
+                    </name>
+                </author>
+                <editor xml:id="trad" role="Translator"> Etienne Dobensque</editor>
+                <respStmt xml:id="resp">
+                    <resp>Codificato per il corso di Codifica di Testi (Unipi 2019/20) da</resp>
+                    <name>Ada Desideri</name>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <publisher xml:id="ed">La fabrique éditions</publisher>
+                <pubPlace>Paris</pubPlace>
+                <availability>
+                    <p>Copyright</p>
+                </availability>
+                <date when="2019-03">March 2019</date>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl type="article" subtype="book_chapter" xml:id="art">
+                    <author>
+                        <name>
+                            <surname>Federici</surname>
+                            <forename>Silvia</forename>
+                        </name>
+                    </author>
+                    This text was written in 2016 and published for the first time, translated in spanish, in
+                    <bibl xml:id="orig">
+                        <author ref="SF">
+                            <name>
+                                <surname>Federici</surname>
+                                <forename>Silvia</forename>
+                            </name>
+                        </author>
+                        <title>El patriarcado del salario. Criticas feministas al marxismo.</title>
+                        <pubPlace>Madrid</pubPlace>
+                        <publisher>Traficantes de sueños</publisher>
+                        <date when="2018">2018</date>
+                        <citedRange unit="page">p. 69-80.</citedRange>
+                    </bibl>
+                    <title level="a" ref="art"> L'invention de la ménagère</title> in 
+                    <bibl type="monogr" xml:id="main">
+                    <title level="m" xml:id="book"> Le capitalisme patriarcal</title>
+                    <editor role="Translator" ref="trad">Etienne Dobensque</editor>
+                    <publisher ref="ed">La fabrique éditions</publisher>
+                    <pubPlace>Paris</pubPlace>
+                    <date when="2019-03">March 2019</date>
+                    </bibl>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+
+    </teiHeader>
+
+    <text xml:lang="fr">
+        <body>
+        <div>
+            <head> L'invention de la menagère 
+                <note n="1" place="bottom" type="bibl" resp="#ed"> 1.
+                    <bibl corresp="#orig">Ce texte de 2016 a été publié pour la première fois traduit en espagnol, dans <author>Silvia Federici</author>, <title>El patriarcado del salario. Criticas feministas al marxismo</title>, <pubPlace>Madrid</pubPlace>, <publisher>Traficantes de sueños</publisher>, <date when="2018">2018</date>, <citedRange unit="page">p. 69-80.</citedRange> 
+                    [Ndé]
+                    </bibl> 
+                    
+                </note> 
+            </head>
+            <p>A ce jour, beaucoup considèrent le travail domestique comme la vocation naturelle des femmes, au point qu'il est souvent qualifié de <quote> &lt; &lt; travail de femme &gt; &gt; </quote> . En realité, le travail domestique tel que nous le connaissons est une construction assez recente qui date de la <date from="1800">dernière partie du XIXe</date> et des <date to="1900">premières décennies du XXe siècle</date>, quand, sous la pression de l'insurrection de la classe ouvrière et pour répondre au besoin d'une main-d'oeuvre plus productive, la classe capitaliste d'<region key="England">Angleterre</region> et des <country key="USA">Etats Unis</country> a engagé une reforme du travail qui a transformé non seulement l'usine, mais aussi la collectivité et le foyer et en premier lieu la position sociale des femmes. </p>
+            <p>Du point de vue de ses effets sur les femmes, cette réforme peut être décrite comme la création de la ménagère à temps plein, un processus complexe de manipulation des structures sociales qui, en quelques décennies, a sorti les femmes - et en particulier les mères - des usines, augmenté substantiellement les salaires des travailleurs hommes, suffisamment pour leur permettre d'entretenir une ménagère <quote> &lt;&lt; inactive &gt; &gt; </quote> , et institué des formes d'éducation populaire pour inculquer aux ouvrières d'usines les compétences nécessaires au travail domestique.</p>
+            <p>Cette réforme n'était pas défendue uniquement par les gouvernements et les employeurs. Les travailleurs hommes demandaient aussi que les femmes soient exclues des usines et des autres lieux du travail salarié, soutenant que leur place était au foyer. Dans <date when="1800">les dernières décennies du XIXe siècle</date>, les syndicats ont commencé une campagne vigureuse dans ce sens, convaincus que l'élimination de la concurrence des femmes et des enfants renforcerait le pouvoir de négociation des travailleurs. Comme <name xml:id="Seccombe" >Wally Seccombe</name> l'écrit dans <bibl rend="italic" xml:id="WTS">Weathering the Storm</bibl>, au moment de la <name type="event">Première Guerre mondiale</name>, l'idée d'un <quote> &lt;&lt; salaire familial &gt; &gt; </quote>  ou d'un <quote> &lt;&lt; salaire de subsistance &gt; &gt; </quote> était devenue <quote source="#WTS"> &lt;&lt;une revendication incontournable dans le mouvement ouvrier et un objectif fondamental dans les négociations syndicales, défendu per les partis ouvriers de l'ensemble du monde capitaliste développé &gt;&gt; </quote>. De fait, 
+                <cit>
+                    <quote> &lt;&lt;gagner un salaire suffisamment élevé pour entretenir sa famille était devenu un symbole de la respectabilité masculine, distinguant les   couches supérieures de la classe travailleuse des travailleurs pauvres&gt; &gt; 
+                    </quote>
+                    <note n="1" place="bottom" anchored="true" type="bibl" resp="sf"> 1.
+                        <bibl source="#WTS">
+                            <author ref="#Seccombe">
+                                <name>Wally Seccombe</name>
+                            </author>, 
+                            <title type="main" rend="italic">Weathering the Storm</title>,
+                            <title type="sub" rend="italic"> Working-Class Families From the Industrial Revolution to the Fertility Decline</title>,
+                            <pubPlace key="London">Londres/</pubPlace><pubPlace key="NYC">New York</pubPlace>, 
+                            <publisher>Verso Press</publisher>, 
+                            <date when="1993">1993</date>, 
+                            <citedRange>p. 114</citedRange>
+                        </bibl>
+                    </note>
+                </cit>.
+            </p>
+            <p>A cet égard, les intérêts des travailleurs hommes et des capitalistes coïncidaient. Car la crise déclenchée par les luttes de la classe travailleuse en <region key="England">Angleterre</region> dans les années <date when="1830">1830</date> et <date when="1840">1840</date>, la montée du chartisme et du syndicalisme, les débuts du mouvement socialiste et la crainte suscitée chez les employeurs par l'insurrection des travailleurs dans toute l'<country key="Europe">Europe</country> en <date when="1848">1848</date>, 
+                <cit>
+                    <quote> &lt;&lt;s'étendant comme un feu de brousse sur l'ensemble du continent&gt; &gt;
+                    </quote>
+                    <note n="2" place="bottom" anchored="true" type="bibl" resp="#sf"> 2.
+                        <bibl source="#WTS">
+                            <ref rend="italic"><abbr>Ibid.</abbr></ref>
+                            <citedRange>p. 80</citedRange> 
+                        </bibl>.
+                    </note>
+                </cit>
+            , avaient convaincu les dirigeants du pays qu'une amélioration des conditions de vie des travailleurs était nécessaire. Si la <region key="GB">Grande-Bretagne</region> ne voulait pas faire face à une agitation sociale durable, voire à une révolution, la vieille stratégie consistant à réduire les salaires à un minimum et à allonger la journée de travail au maximum, sans laisser de temps pour la reproduction, devait être abandonée.</p>
+            <p>Une des grandes inquiétudes des réformateurs était aussi la désaffection de plus en plus évidente des femmes prolétaires pour la famille et la reproduction. Employées dans les usines toute le journée, touchant leur propre salaire, habituées à leur indépendance et à vivre dans un espace public avec d'autres femmes et hommes l'essentiel du temps où elles ne dormaient pas, les femmes prolétaires anglaises et en particulier les <quote> &lt;&lt; filles &gt; &gt; </quote>  des usines 
+                <cit>
+                    <quote> &lt;&lt; ne montraient pas d'intérêt pour la prochaine génération de travailleurs &gt; &gt;  
+                    </quote> 
+                    <note n="1" place="bottom" anchored="true" type="bibl" resp="#sf"> 1.
+                    <bibl>
+                        <bibl xml:id="PatrAndAcc"> 
+                            <author xml:id="aMies">
+                                <name>Maria Mies</name>
+                            </author>, 
+                            <title type="main" rend="italic">Patriarchy and Accumulation on a World Scale</title>,
+                            <pubPlace key="London">Londres</pubPlace>, 
+                            <publisher>Zed Books</publisher>, 
+                            <date when="1986">1986</date>, 
+                            <citedRange>p. 105</citedRange>. 
+                        </bibl>
+                        Lire également 
+                        <bibl xml:id="TheArcan" source="#LArcano"> 
+                            <author xml:id="Fortunati">
+                                <name>Leopoldina Fortunati</name>
+                            </author>, 
+                            <title type="main" rend="italic">The Arcane of Reproduction</title>.
+                            <title type="sub" rend="italic">Housework, Prostitution, Labor and Capital</title>,
+                            <pubPlace key="Brooklyn">Brooklyn</pubPlace>, 
+                            <publisher>Autonomedia</publisher>, 
+                            <date when="1995">1995</date>,
+                            (éd. originale en italien :
+                            <bibl xml:lang="it" xml:id="LArcano">
+                                <title type="main" rend="italic">L'Arcano della Riproduzione</title>.
+                                <title type="sub" rend="italic">Casalinghe, Prostitute, Operai, Capitale</title>,
+                                <pubPlace key="Venice">Venise</pubPlace>, 
+                                <publisher>Marsilio Editore</publisher>, 
+                                <date when="1981">1981</date>,
+                            </bibl>
+                            <citedRange>p. 171</citedRange>.
+                        </bibl>
+                    </bibl>
+                    </note>
+                </cit>; elles refusaient d'assumer un rôle ménager et menaçaient la moralité bourgeoise avec leur comportement tumultueux et leurs habitudes masculines - comme fumer et boire 
+                <note n="2" place="bottom" anchored="true" type="bibl" resp="#sf"> 2.
+                    Comme 
+                    <cit>
+                        <quote><ab>&lt;&lt; se désolait un inspecteur d'usines britaniques : <q>"Elles entrent souvent dans les débits de bière, réclament leur pinte et fument la pipe comme des hommes."</q> Selon un autre observateur contemporain le salaire a nourri chez les femmes <q>"un esprit d'indépendance précoce qui affaiblit les liens familiaux et est très favorable à l'essor de la vertu domestique"</q> &gt; &gt;
+                        </ab></quote>
+                        <bibl source="#WTS">(
+                            <author ref="#Seccombe">
+                                <name>Seccombe</name>
+                            </author>, 
+                            <title type="main" rend="italic" >Weathering the Storm</title>,
+                            <ref rend="italic"><abbr>op. cit.</abbr></ref>,
+                            <citedRange>p. 121</citedRange>. 
+                        )</bibl>
+                    </cit>
+                </note>
+                .</p>
+            <p>Les lamentations sur le manque de compétences domestiques des ouvrières et leur propension au gaspillage - leur tendance à acheter tout ce dont elles avaient besoin, leur incapacité à cuisiner, coudre ou tenir leur foyer propre, ce qui contraignait leur mari à se réfugier au <quote> &lt;&lt;gin shop&gt; &gt; </quote> , leur manque d'affection maternelle - étaient un passage obligé des rapports des réformateurs des années 1840 jusqu'ai tournant du siècle
+                <note n="3" place="bottom" anchored="true" type="bibl" resp="#sf" >
+                    Voir 
+                    <bibl xml:id="AndMWivesother"> 
+                        <author xml:id="Hewitt">
+                            <name>Margaret Hewitt</name>
+                        </author>, 
+                        <title type="main" rend="italic">Wives and Mother in Victorian Industry</title>.
+                        <title type="sub" rend="italic">A study of the effects of the employment of married women in Victorian Industry</title>,
+                        <pubPlace key="London">Londres</pubPlace>, 
+                        <publisher>Rockliff</publisher>, 
+                        <date when="1958">1958</date>, 
+                        en particulier le
+                        <citedRange unit="chapter">chapitre VI</citedRange>,
+                        <title type="sub"> &lt;&lt; The married operativeas as a home-maker &gt; &gt;</title> 
+                    </bibl>.
+                </note>. 
+            Ainsi, en <date when="1867">1867</date>, une <orgName>Commission sur l'emploi des enfants</orgName> se lamentait que, <quote source="#WivesAndMother"> &lt;&lt;étant employées de huit heures du matin à cinq heures du soir, elles [les femmes mariées] rentrent au foyer fatiguées et lasses et refusent de faire le moindre effort supplémentaire pour rendre la maison confortable &gt;&gt; </quote>, si bien que <cit><quote> &lt;&lt;lorsque le mari rentre, il trouve tout inconfortable, la maison sale, aucun repas préparé, les enfants pénibles et chamailleurs, l'épouse négligée et irritée et son foyer si désagréable que bien souvent, il se rend au pub et devient un ivrogne&gt;&gt;</quote>
+                <note n="1" place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl source="#WivesAndMother">
+                        <ref rend="italic"><abbr>Ibid.</abbr></ref>
+                    </bibl>
+                    Lire également, 
+                    <bibl>
+                        <author>
+                            <name ref="#Seccombe">Seccombe</name>,
+                        </author>
+                        <title ref="#WTS">Weathering the Storm</title>
+                        <ref rend="italic"><abbr>op. cit.</abbr></ref>
+                        <citedRange>p. 119-120</citedRange>.
+                    </bibl>
+                </note>
+            </cit>.</p>
+            <p>A l'inquiétude face à la crise de la vie domestique provoquée par l'emploi féminin s'ajutait la crainte d'une usurpation des prérogatives masculines, qui pouvaient, croit-on, miner la stabilité de la famille et déclencher des troubles sociaux. Au cours des débats parlementaires qui ont mené à la <bibl rend="italic" xml:lang="en">Ten Hours Act</bibl><add type="translation" resp="#trad" place="inline">[Loi des dix heures]</add> en <date when="1847">1847</date>, un partisan de la limitation du temps de travail des femmes prévenait que <cit><quote> &lt;&lt;non seulement les ouvrières accomplissent le travail des hommes mais elles occupent aussi leurs places; elles forment divers clubs et association et acquièrent progressivement tous ces privilèges qui sont considérés comme le lot du sexe masculin &gt;&gt; </quote>
+                <note n="2" place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl xml:id="WAI">
+                        <author xml:id="Lown">
+                            <name>Judy Lown</name>
+                        </author>, 
+                        <title type="main" rend="italic">Women and Industrialization</title>,
+                        <title type="sub" rend="italic">Gender and Work in 19th Century England</title>,
+                        <pubPlace key="Minneapolis">Minneapolis</pubPlace>, 
+                        <publisher>University of Minnesota Press</publisher>, 
+                        <date when="1958">1990</date>, 
+                        <citedRange unit="page">p. 181</citedRange>.
+                    </bibl>
+                </note>
+            </cit>. 
+            Une famille en morceaux ferait un pays instable, soupposait-on. Les maris négligées quitteraient le   foyer, passeraient leur temps libre dans les pubs, les débits de bière et de gin, y feraient de dangereuses rencontres encourageant une attitude séditieuse.</p>
+            <p>Il y avait un autre danger : les bas salaires, les longues journées de travail et les services domestiques insuffiants avaient pour effet combiné de décimer la main-d'oeuvre réduisant l'espérance de vie et produisant des êtres émaciés qui ne pouvaient faire de bons travailleurs ni de bons soldats. Comme le rapporte là encore <name type="person" ref="#Seccombe">Wally Seccombe</name>, <cit><quote> &lt;&lt;la vitalité, la santé et la vigueur du prolétariat urbain ont été progressivement consumées pendant la première phase de l'industrialisation. Les travailleurs étaient exténués à un très jeune âge et leurs enfants étaient malades et fragiles. Grandissant dans un habitat sordide, ils étaient mis au travail à l'âge de huit ou dix ans et épuisés à quarante, incapables de travailler douze heures par jours, cinq jours et demi par semaine année après année.&gt; &gt;</quote> 
+                <note n="1" place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl>
+                        <author>
+                            <name ref="#Seccombe">Seccombe</name>,
+                        </author>
+                        <title ref="#WTS">Weathering the Storm</title>
+                        <ref rend="italic"><abbr>op. cit.</abbr></ref>
+                        <citedRange unit="page">p. 73</citedRange>.
+                    </bibl>
+                </note>
+            </cit>.</p>
+            <p>Surmenés, mal nourris, vivant dans des bas quartiers surpeuplés, les ouvriers des villes industrielles du <name type="place">Lancashire</name> avaient des vies rabougries et mouraient avant l'heure. A <name type="place">Manchester</name> et <name type="place">Liverpool</name>, dans les années <date when="1860">1860</date>, ils pouvaient espérer vivre moins de trente ans 
+                <note n="2" place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl source="WTS">
+                        <ref rend="italic"><abbr>Ibid.</abbr></ref>
+                        <citedRange unit="page">p. 75, 77</citedRange>.
+                    </bibl>
+                </note>. 
+            La mortalité infantile était  également endémique et là aussi, la négligence et l'éloignement des mères étaient désignés comme la principale cause. Les inspecteurs d'usine reconnaissaient toutefois que, hors de leur foyer presque toute la journée, les ouvrières n'avaient d'autres choix que de laisser leurs petits enfants à una jeune fille ou une femme plus âgée qui les nourrissait de pain et d'eau et leur dispensait des doses abondantes de <name rend="italic" type="food">Godfrey's Cordial</name>, un opiacé populaire, pour les calmer
+            <note n="1" place="bottom" anchored="true" type="bibl" resp="#sf">
+            <bibl>
+                <bibl source="#WivesAndMother"> 
+                    <author ref="#Hewitt">
+                        <name>Hewitt</name>
+                    </author>, 
+                    <title type="main" rend="italic">Wives and Mother in Victorian Industry</title>.
+                    <ref rend="italic"><abbr>op. cit.</abbr></ref>
+                    <citedRange unit="page">p. 152</citedRange>.
+                </bibl>
+                <bibl>
+                    Sur l'usage du <name rend="italic" type="food" xml:id="GodfCord">Godfrey's Cordial</name>, lire l'ensemble du <citedRange unit="chapter">chapitre X</citedRange>, <title type="sub">&lt;&lt; Infants' Preservatives &gt; &gt;</title>.
+                </bibl>
+            </bibl>
+            Comme le rapporte <name type="person" ref="#Hewitt">Hewitt</name> <cit><quote>&lt;&lt; pour apaiser les cris de douleur des petits enfant, qui devaient se trouver dans un état de souffrance permanent du fait de leur singulier régime alimentaire, les nurses avaient l'habitude d'administrer du <name rend="italic" type="food"> gin and peppermint</name> <add resp="#SF">[préparation à base de gin et de menthe poivrée]</add> et d'autres potions, comme le <name rend="italic" type="food" ref="#GodfCord">Godfrey's Cordial</name>, l'<name rend="italic" type="food">Atkinson Royal</name>, <name rend="italic" type="food">Infants' Preservative</name> et le <name rend="italic" type="food">Mrs. Wilkinson Soothing Syrup</name>. Ainsi, un cercle vicieux se mettait en place où on les nourrissait de pain et d'eau, puis de <name rend="italic" type="food" ref="#GodfCord">cordial</name>, et ainsi de suite tout au long de la journée. <gap rend="dotted" resp="#SF"/>[...] La composition de ces sirops variait d'un pharmacien à l'autre mais un narcotique - opium, laudanum, morphine - figurait toujours parmi les ingrédients &gt; &gt; </quote>
+                <bibl source="#WivesAndMother">
+                    <ref rend="italic"><abbr>(ibid.</abbr></ref>,
+                    <citedRange unit="page">p. 141)</citedRange>
+                </bibl>
+            </cit>
+            <name type="person" ref="#Hewitt">Hewitt</name> ajoute que <cit><quote>&lt;&lt; les ventes de ces opiacés dans les quartiers industriels étaient considérables. À <name type="city">Coventry</name>, 12 000 doses de <name rend="italic" type="food" ref="#GodfCord">Godfrey</name> étaient administrées chaque semaines, et encore plus en proportion à <name type="city">Nottingham</name> &gt; &gt; </quote>
+                <bibl source="#WivesAndMother">
+                    <ref rend="italic"><abbr>(ibid.</abbr></ref>,
+                    <citedRange unit="page">p. 142)</citedRange>
+                </bibl>
+            </cit>
+            </note>. 
+            Bien entendu, les femmes des usines essayaient d'éviter des grossesses, recourant souvent à diverses substances pour provoquer l'avortement.</p>
+           <p>C'est sous cet angle qu'il nous faut considérer les protestations croissantes dans les classes moyennes et supérieures, vers le milieu du siècle,   contre la <quote> &lt;&lt;scandaleuse perte de vies&gt; &gt;</quote> imposée par le régime des usines, d'autant plus préoccupante que les conditions des autres <quote> &lt;&lt;métiers&gt; &gt;</quote>  n'étaient pas vraiment meilleures. Loin d'être exceptionnelles, les conditions devie décriées par les réformateurs dans les villes industrielles se répétaient dans les zones rurales, où les femmes travaillaient en <q rend="italic">gangs</q>, embauchées comme journalières 
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                Sur le <quote>&lt;&lt; système des <q rend="italic">gangs</q>&gt; &gt;</quote> et les faibles niveaux de confort domestique en raison de l'emploi des femmes comme journalières, lire 
+                <bibl xml:id="WWIR">
+                    <author xml:id="Pinchbeck">
+                        <name>Ivy Pinchbeck</name>
+                    </author>, 
+                    <title type="main" rend="italic">Women Workers and the Industrial Revolution : </title>
+                    <title type="sub" rend="italic">1750-1850</title>
+                    <pubPlace key="NYC">New York</pubPlace>, 
+                    <publisher>F.S. Croft &amp; Co.</publisher>, 
+                    <date when="1930">1930</date>, 
+                    <citedRange unit="page">p. 86-87, 106-107.</citedRange>.
+                </bibl>
+           </note>
+            , ou dans les régions minières comme le Nord Lancashire, le Cheshire, la Galles du Sud, où (comme Marx l'a décrit également) des femmes et des jeunes filles dès l'âge de treize ans, voire plus jeunes encore, travaillaient dans les mines pour collecter le minerai, briser les plus gros morceaux ou même, enchaînées à des chariots, porter le charbon jusqu'au galeries moins étroites où des chevaux pouvaient les relayer, tout cela onze heures par jours ou plus, à moitiés nues, parfois avec de l'eau jusqu'aux genoux, d'ordinaire avec des enfants également
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                <bibl source="#WWIR">
+                    <author ref="#Pinchbeck">
+                        <name>Ivy Pinchbeck</name>
+                    </author>, 
+                    <ref rend="italic" source="#WWIR"><abbr>op. cit.</abbr></ref>
+                    <citedRange unit="chapter">chapitre 11</citedRange><citedRange unit="page">p. 240</citedRange>
+                    <ref rend="italic" source="#WWIR"><abbr>sq.</abbr>
+                        Lire notamment 
+                    </ref>
+                    <citedRange>p. 244-245, 247-248, 249.</citedRange>
+                </bibl>
+           </note>.</p>
+           <p>L'inaptitude évidente de la classe travailleuse à se reproduire et à fournir un flux régulier de travailleurs a été particulièrement problématique entre 1850 et le tournant du siècle, période qui a   vu, tant en Grande-Bretagne qu'aux Etats-Unis, une transformation majeure du système de production, qui exigeait un type de travailleur plus fort et plus productif. Dèsigné généralement comme la <cit><quote> &lt;&lt;Seconde révolution industrielle&gt; &gt;</quote> 
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                Sur la <quote> &lt;&lt;Seconde révolution industrielle&gt; &gt;</quote>, lire
+                <bibl>
+            <bibl source="#WTS">
+                <author ref="Seccombe">Seccombe</author>,
+                <title rend="italic" ref="#WTS">Weathering the Storm</title>
+                <ref rend="italic" source="#WTS"><abbr>op. cit.</abbr></ref>
+                <citedRange unit="chapter"> chapitre 4, </citedRange>
+                <title type="sub">&lt;&lt; The Second Industrial Revolution: 1873-1914 &gt; &gt;</title>;
+            </bibl>
+            <bibl xml:id="IAE">
+                <author xml:id="Hobsbawn">E. J. Hobsbawn</author>
+                <title type="main" rend="italic">Industry and Empire</title>
+                <citedRange unit="volume" rend="italic">Vol. II</citedRange>
+                <title type="sub" rend="italic">1750 to Present Day : The Making of Modern Society.</title>
+                <pubPlace key="NYC">New York</pubPlace>, 
+                <publisher>Pantheon Books</publisher>, 
+                <date when="1968">1968</date>, 
+                <citedRange unit="chapter">chapitre 6</citedRange>
+                <title type="sub"> &lt;&lt;Industrialization : the Second Phase 1840-1895&gt; &gt;</title>
+            </bibl>
+        </bibl>
+        </note>
+        </cit>
+            , c'était le passage de l'industrie légère à l'industrie lourde, c'est-à-dire du textile à l'acier, au fer et au charbon comme principaux secteurs indistriels et principales sources d'accumulation du capital, rendu possible par la création d'un vaste réseau de chemin de fer et l'arrivée de la machine à vapeur.</p>   
+           <p>C'est parmi les architectures de cette nouvelle révolution industrielle que, dès les années 1840, une nouvelle doctrine a commencé à s'imposer, associant une productivité et un taux d'exploitation plus importants à des salaires masculins plus élevés, un temps de travail réduit et, surtout, des meilleures conditions de vie pour la classe travailleuse auxquelles devaient pourvoir des épouses labourieuses et économes 
+               <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                   <bibl source="#IAE">
+                       <author ref="#Hobsbawn">Hobsbawn</author>
+                       <title type="main" rend="italic">Industry and Empire</title>
+                       <citedRange unit="volume" rend="italic">Vol. II</citedRange>
+                       <ref rend="italic" source="#IEA"><abbr>op. cit.</abbr></ref>
+                       <citedRange unit="page">p. 101</citedRange>
+                       <ref source="#IAE" rend="italic"><abbr>sq.</abbr></ref>
+                   </bibl>
+               </note>
+               .</p>
+           <p>Des décennies après, dans ses <bibl xml:id="POE"><title xml:lang="en" rend="italic">Principles of Economics</title> <date when="1890">(1890)</date></bibl> l'économiste anglais <bibl source="#POE"><author xml:id="Marshall">Alfred Marshall</author></bibl> énonçait le nouveau credo industriel dans les termes les plus clairs. Réfléchissant aux   conditions qui garantissent <quote>&lt;&lt;la santé et la vigueur physique, mentale et morale&gt; &gt; </quote> des travailleurs, qui constituent, dit-il, <cit><quote> &lt;&lt;la base de l'aptitude au travail, <gap rend="dotted" resp="#SF"/>[...] dont dépend la production de la richiesse matérielle &gt;&gt;</quote> 
+            <note place="bottom" anchored="true" type="bibl" resp="#sf"><bibl source="#POE">
+                <author ref="#Marshall">Alfred Marshall</author>,
+                <title xml:lang="en" rend="italic" type="main">Principles of Economics.</title> 
+                <title xml:lang="en" rend="italic" type="sub">An intriductory volume</title>,
+                <pubPlace key="London">Londres</pubPlace>,
+                <publisher>Macmillan and Co.</publisher>,
+                <date when="1890"><add resp="SF">[1890]</add></date><date when="1938">1938</date>
+                <citedRange unit="page">p. 193</citedRange>
+                <add resp="trad">[<abbr>éd.</abbr> en français :
+                <bibl xml:id="FPOE" source="#POE">
+                    <title>Principes d'économie politique</title>
+                    (traduction de
+                    <editor role="Translator" xml:id="Jourdan"> F. Sauvaire-Jourdan</editor>)
+                    <pubPlace>Paris</pubPlace>,
+                    <publisher>V. Giard et E. Brière</publisher>,
+                    <date when="1906">1906</date>
+                    <citedRange unit="page">p. 363</citedRange>
+                </bibl>].
+                </add>
+            </bibl></note>
+            </cit>, il concluait qu'un facteur déterminant était <cit><quote> &lt;&lt;une ménagère habile qui <add>[avec]</add> six shillings à dépenser per semaine, fera plus pour la santé er la vigueur de sa famille qu'une ménagère inhabile avec vingt&gt; &gt; </quote> 
+                <note place="bottom" anchored="true" type="bibl" resp="#sf"><bibl source="#POE">
+                    <abbr rend="italic">Ibid.</abbr>
+                    <citedRange unit="page">p. 195</citedRange>
+                    <add resp="trad">[<bibl><abbr>éd.</abbr> en français:
+                        <citedRange unit="page">p. 367</citedRange>
+                    ]</bibl></add>
+                </bibl>
+                </note>
+            </cit>. Il ajoutait : <cit><quote> &lt;&lt;la grande mortalité des enfants dans les classes pauvres est due en grande partie au manque de soin et de jugement dans la préparation de leur norriture et ceux qui n'en meurent pas en gardent souvent una constitution affaiblie&gt; &gt; </quote> 
+                <note place="bottom" anchored="true" type="bibl" resp="#sf"><bibl source="#POE">
+                <abbr rend="italic">Ibid.</abbr>
+                <citedRange unit="page">p. 195-196</citedRange>
+                <add resp="trad">[<bibl><abbr>éd.</abbr> en français:
+                    <citedRange unit="page">p. 367</citedRange>
+                ]</bibl></add>
+            </bibl>
+            </note></cit>. Marshall soulignait également quei c'était la mère qui avait <cit><quote> &lt;&lt;l'influence principale, et de beaucoup la plus puissante&gt; &gt; </quote>
+                <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                    Comme <rs type="person" ref="#Marshall">il</rs> l'écrit : <cit><quote>&lt;&lt; L'habileté générale dépend beaucoup des circonstances qui entournent l'enfance et la jeunesse. Parmi elles, l'influence principale, et de beaucoup la plus puissante, c'est celle de le mère &gt;&gt;</quote>
+                        <bibl source="#POE">(
+                            <abbr rend="italic">ibid.</abbr>
+                            <citedRange unit="page">p. 207</citedRange>
+                            <add resp="trad">[<bibl><abbr>éd.</abbr> en français:
+                                <citedRange unit="page">p. 384</citedRange>
+                            ])</bibl></add>
+                        </bibl>
+                    </cit>
+                    Pour cette raison, <name ref="#Marshall" type="person">Marshall</name> était opposé au travail salarié des femmes. Il notait que la mortalité infantile est généralement plus élevée <cit><quote>&lt;&lt;lorsque les mères négligent leurs devoirs de famille pour gagner des salaires &gt;&gt;</quote>
+                        <bibl source="#POE">(
+                            <abbr rend="italic">ibid.</abbr>
+                            <citedRange unit="page">p. 198</citedRange>
+                            <add resp="trad">[<bibl><abbr>éd.</abbr> en français:
+                                <citedRange unit="page">p. 371</citedRange>
+                            ]).</bibl></add>
+                        </bibl>
+                    </cit>
+
+                </note>
+            </cit> pour la détermination de <term xml:id="habGen"> <quote rend="italic">&lt;&lt;habileté générale&gt; &gt;</quote> au travail</term>, définie de la manière suivante : <cit><quote> <gloss target="#habGen">&lt;&lt;Être capable de penser à plusieurs choses à la fois, tenir   chaque chose prête pour le moment où on en aura besoin, agir avec proptitude et se montrer plein de ressource lorsque quelque chose va mal, se plier rapidement aux modifications de détail à apporter dans un travail, être régulier et exact, avoir toujours une réserve d'énergie toute prête à l'occasion, voilà les qualités qui font un grand peuple industriel. Elles ne sont pas spéciales à un métier, mais sont nécessaires dans tous <gap rend="dotted" resp="#SF"/>[...] &gt; &gt;</gloss> </quote> 
+                <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl source="#POE">
+                    <abbr rend="italic">Ibid.</abbr>
+                    <citedRange unit="page">p. 206-207</citedRange>
+                    <add resp="trad">[<bibl><abbr>éd.</abbr> en français:
+                        <citedRange unit="page">p. 383</citedRange>
+                    ].</bibl></add>
+                </bibl>
+                </note>
+            </cit>.</p>    
+           <p>Il n'est donc pas surprenant qu'à partir des années 1840, les rapports aient commencé à se succéder pour recommander de réduire le temps de travail des femmes, notamment des femmes mariées, à l'usine, afin qu'elles soient en mésure d'accomplir leurs tâches domestiques, et pour conseiller aux employeurs de s'abstenir de recruter des femmes enceintes. Derrière la création de la ménagère prolétaire et l'extention à celle-ci d'un genre de vie de famille autrefois réservé à la classe moyenne, il y avait la nécessité d'un nouveau type de travailleur, plus sain, plus robuste, plus productif et surtout plus discipliné et <quote>&lt;&lt;domestiqué&gt; &gt;</quote> .</p>  
+           <p>D'où l'expulsion progressive des femmes et des enfants des usines, l'introduction du salaire familial, l'instruction des femmes aux vertus de la vie domestique, un nouveau régime reproductif en somme, et un nouveau <quote>&lt;&lt;contrat social&gt;&gt;</quote>, qui, au   moment de la Première Guerre mondiale, était devenu la norme dans tous les pays industriels, à son apogée aux Etats-Unis dans la décennie qui a précédé la guerre, avec la montée du fordisme, au moment de ce qu'on a appelé l'<cit><quote> &lt;&lt;Ère progressiste&gt; &gt; </quote>
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                Sur ce sujet, lire, entre autres,
+                <bibl xml:id="FWS">
+                    <author xml:id="DellaCosta">Mariarosa Della Costa</author>,
+                    <title rend="italic">Family, Welfare and the State Between Progressivism and New Deal</title>,
+                    <pubPlace key="NYC">New York</pubPlace>
+                    <publisher>Common Notions</publisher>
+                    <date when="2015">2015</date>
+                    <add resp="trad">[<abbr>éd.</abbr> originale en italien :
+                        <bibl xml:id="IFWS" source="#FWS">
+                            <title>Famiglia, welfare, stato tra progressismo e New Deal</title>
+                            <pubPlace>Rome</pubPlace>,
+                            <publisher>Franco Angeli Editore</publisher>,
+                            <date when="1997">1997</date>
+                        </bibl>].
+                        </add>
+                </bibl>
+                et 
+                <bibl xml:id="UH">
+                    <author xml:id="Folbre">Nancy Folbre</author>,
+                    <title level="a" type="main">&lt;&lt;The Unproductive Housewife:</title>,
+                    <title level="a" type="sub"> Her Evolution in Nineteenth-Century Economic Thought &gt;&gt;</title>
+                    <title level="j">Signs</title>
+                    <citedRange unit="volume">vol. 16, n° 3</citedRange>
+                    <date when="1991">printemps 1991</date>
+                    <citedRange unit="page">p. 463-483</citedRange>
+                </bibl>.
+            </note>
+            </cit>. En vertu de ce contrat, l'investissement dans la reproduction de la classe travailleuse devait se traduire par une productivité accrue, la ménagère étant chargée de s'assurer que le salaire était bien dépensé, que le travailleur était bien soigné, assez pour être consommé pas une autre journée de travail, et que les enfants étaient convenablement éduqués pour leur futur destin de travailleurs.</p>   
+           <p>En Angleterre, ce processus a commencé avec le vote, en 1842, de la <bibl rend="italic" xml:lang="en">Mine Act</bibl><add type="translation" resp="#trad" place="inline">[Loi des mines]</add>, qui interdisait le travail dans les mines à toutes les femmes et aux garçons de moins de 10 ans, suivi, en 1847, par celui de la <bibl rend="italic" xml:lang="en">Ten Hours Act</bibl><add type="translation" resp="#trad" place="inline">[Loi des dix heures]</add> , pour laquelle les travailleurs, notamment dans le Lancashire, luttaient depuis 1833. Outre la promulgation de lois limitant le temps de travail des femmes et des enfants, d'autres réformes ont été mises en place, qui contribuent à la construction   de la famille prolétaire et du rôle des femmes comme travailleuses domestiques non payées au foyer. Les salaires des travailleurs hommes ont été substantiellement augmentés, de 40 pour cent entre 1862 et 1875, et ils ont encore grimpé rapidement après cette date, si bien qu'en 1900, un travailleur gagnait un tiers de plus qu'en 1975
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                <bibl source="#IAE">
+                    <author ref="#Hobsbawn">Hobsbawn</author>
+                    <title type="main" rend="italic">Industry and Empire</title>
+                    <citedRange unit="volume" rend="italic">Vol. II</citedRange>
+                    <ref rend="italic" source="#IEA"><abbr>op. cit.</abbr></ref>
+                    <citedRange unit="page">p. 133</citedRange>.
+                </bibl>
+                <cit><quote> &lt;&lt; À partir du début des années 1870, le syndicalisme a été officiellement reconnu et accepté&gt;&gt;</quote>
+                <bibl source="#IAE">(
+                    <abbr rend="italic"> ibid. </abbr>,
+                    <citedRange unit="page">p. 128</citedRange>
+                )</bibl>
+                </cit>
+
+            </note>
+            . En 1870, un système d'éducation nationale à été mis en place, qui est devenu obligatoire en 1891. Peu après, <cit><quote> &lt;&lt;des cours de sciences domestiques ont été introduits dans les écoles élémentaires publiques&gt; &gt; </quote> 
+                <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl source="#IAE">
+                        <abbr rend="italic"> ibid. </abbr>,
+                        <citedRange unit="page">p. 79</citedRange>.
+                    </bibl>
+                </note>
+            </cit>.</p>
+           <p>Des réformes sanitaires comme la mise en place d'<quote> &lt;&lt;égouts, [d'un service de] distribution des eaux [et de] nettoyage des rues&gt; &gt; </quote> ont été introduites, permettant d'enrayer les épidemies récurrentes
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+            <bibl source="#IAE">
+                <abbr rend="italic"> ibid. </abbr>,
+                <citedRange unit="page">p. 131</citedRange>.
+            </bibl>
+        </note>. Un marché de la consommation a commencé à apparaître pour les travailleurs avec l'apparition de la boutique, qui offrait des aliments mais aussi des vêtements et des chaussures
+        <note place="bottom" anchored="true" type="bibl" resp="#sf">
+            <bibl source="#IAE">
+                <abbr rend="italic"> ibid. </abbr>,
+                <citedRange unit="page">p. 136</citedRange>.
+            </bibl>
+        </note>. A partir des années 1860, des associations se sont formées au nom de la <quote> &lt;&lt;protection de l'enfance&gt; &gt; </quote>  afin de convaincre le gouvernement d'intervenir contre le <term xml:id="babyFarming"><quote rend="italic">&lt;&lt;baby farming&gt;&gt;</quote></term>
+        <note place="bottom" anchored="true" type="gloss" resp="#trad">
+            <gloss target="#babyFarming" resp="trad">Le <q rend="italic" xml:lang="en">baby farming</q>, &lt;&lt; élevage de bébés &gt;&gt; désignait une forme non réglementée d'adoption dans la deuxième moitié du XIXe sièce en Grande Bretagne, où les nourissons étaient pris en charge pas des particuliers, définitivement ou pour une période déterminée, contre rémunération. Quand cette prise en charge était définitive et le paiement forfaitaire, les <q rend="italic">baby farmers</q> avaient intérêt à ce que les enfants meurent au plus vite, ce qui les amenait souvent à les négliger, et parfois à les tuer. Plusieurs femmes ont été pendues pour cette raison entre les années 1860 et le début di XXe siècle après des procès retentissants [Ndt].</gloss>
+        </note>
+        . Des projets ont été proposés pour punir les femmes coupables de négligences et obliger les nurses qu'elles employaient pendant qu'elles étaient au travail à déclarer leur activité et à se soumettre à des inspections. Il y a eu aussi des tentatives de créer des crèches pour les mères encore employées. Ainsi, en 1850, la première crèche a été fondée dans le Lancashire sous le patronage des maires de Manchester et de Salford. Mais ces initiatives ont échoué en raison de la résistence des ouvrières, qui considéraient  qu'elles prenaient le gagne-pain des femmes plus âgées, qui ne pouvaient plus travailler à l'usine et dont la survie dépendait de ce qu'elles pouvaient gagner en s'occupant des enfants des autres femmes <note place="bottom" anchored="true" type="bibl" resp="#sf">
+            <bibl source="AndMWivesother">
+                <author ref="#Hewitt">Hewitt</author>,
+                <title type="main" rend="italic">Wives and Mother in Victorian Industry,</title>
+                <abbr rend="italic"> op. cit. </abbr>,
+                <citedRange unit="page">p. 166</citedRange>.
+            </bibl>
+
+        </note>
+        .</p>
+           <p>Surtout, la création de la famille prolétaire et d'une main-d'oeuvre plus productive et en meilleure santé exigeait l'institution d'une séparation nette entre la ménagère et la prostituée, car les réformateurs reconnaissent qu'il ne serait pas facile de convaincre des femmes à rester au foyer et de travailler gratuitement quand leurs soeurs   et amies gagnaient plus et travaillaient moins en vendant leur corps dans les rues.</p>
+           <p>Là aussi, le grand nombre de prostituées dans la classe travailleuse était imputé non seulement aux bas salaires et à la promiscuité de l'habitat mais au manque d'éducation au travail ménager, qui (comme le soutenait un article du <bibl><title level="j" rend="italic">Times</title></bibl> de 1857) aurait au moins facilité l'exportation de jeunes filles prolétaires comme domestiques dans les colonies <note place="bottom" anchored="true" type="bibl" resp="#sf">
+            Cité dans 
+            <bibl xml:id="prostitution">
+                <author xml:id="Acton">William Acton</author>,
+                <title type="mail" rend="italic">Prostitution</title>,
+                <pubPlace>New York/Washigton</pubPlace>,
+                <publisher>Frederick A. Praeger</publisher>,
+                <date when="1969">1969</date>,
+                <citedRange unit="page">p. 210-211</citedRange>
+            </bibl>
+           </note>. 
+           <quote> &lt;&lt;Apprenons-leur l'art de la ménagère&gt; &gt; </quote>  était un remède proposéaux problèmes posés par la prostitution. A la même époque, de nouvelles réglementations pour contrôler le travail sexuel et le rendre plus dégradant ont été mises en place, comme la déclaration obligatoire des pensions où la prostitution était pratiquée, des visites médicales imposées aux prostituées par les <bibl xml:lang="en" rend="italic"> Contagious Diseases Acts</bibl><add type="translation" resp="#trad" place="inline">[Lois sur les maladies contagieuses]</add> de 1864, 1866 et 1869, et la détention dans les hôpitaux pour une durée pouvant aller jusqu'à six mois de celles chez qui on diagnostiquait une maladie <note place="bottom" anchored="true" type="bibl" resp="#sf">
+               <bibl source="#prostitution">
+                   <abbr rend="italic">Ibid. </abbr>,
+                   <citedRange unit="page">p. 232, note 1.</citedRange>
+               </bibl>
+           </note>.</p>
+           <p>Séparer la bonne ménagère, laborieuse et économe, de la prostituée dépensière était une condition essentielle à la constitution de la famille telle qu'elle a émergé au tournant du siècle. Il fallait séparer la <quote>&lt;&lt;bonne&gt;&gt;</quote>  de la <quote>&lt;&lt;mauvaise&gt;&gt;</quote>  femme, l'épouse de la <quote>&lt;&lt;putain&gt;&gt;</quote> , pour faire accepter le travail domestique non rémunéré.</p>
+           <p>Comme le disait William Acton, médecin et défenseur de la réforme : 
+               <cit><quote>
+                   <ab> Ce qui m'intéresse avant tout, c'est de considérer les effets produits sur les femmes mariées lorsqu'elles s'habituent <gap rend="dotted" resp="#SF"/>[...] à voir leurs compagnes vicieuses et dissolues paradant joyeusement, menant une vie <q> &lt;&lt; de première &gt;&gt;</q>, comme elles disent - acceptant toutes les attentions des hommes, abreuvées d'alcool à volonté, assises aux meilleures places, habilées bien au-dessus de leur condition, avec quantité d'argent à dépenser et ne se réfusant aucun plaisir ni distraction, délestées de tout lien domestique et sans enfant à charge. <gap rend="dotted" resp="#SF"/>[...] Cette supériorité réelle d'une vie de débauche ne pouvait échapper à l'esprit vif de ce sexe</ab>
+                </quote> 
+                <note place="bottom" anchored="true" type="bibl" resp="#sf">
+                    <bibl source="#prostitution">
+                        <abbr rend="italic">Ibid. </abbr>,
+                        <citedRange unit="page">p. 54-55.</citedRange>
+                    </bibl>
+                </note></cit>.</p>
+           <p>Avec la séparation entra ménagères et filles des usines, et surtout entre ménagères et prostituées, une nouvelle division sexuelle du travail a émergé, caracterisée non seulement par la séparation des lieux où les femmes travaillaient mais aussi par les rapports sociaux qui sous-tendaient leurs tâches respectives. La respectabilité est devenue le dédommagement du travail non rémunéré et   de la dépendance à l'égard des hommes. C'est le <q>&lt;&lt;marché&gt;&gt;</q>  qui à bien d'égards a tenu jusqu'aux années 1960/1970, quand une nouvelle génération de femmes a commencé à le refuser. Mais l'opposition au nouveau régime s'est apparemment développée très tôt, parallèlement aux efforts des réformateurs.</p>
+           <p>Il semble que de nombreuses prolétaires aient résisté à l'idée d'être contraintes de travailler au foyer. Comme le rapporte Hewitt, dans le nord de l'Angleterre, on a observé que de nombreuses femmes allaient travailler même quand elles n'en avaient pas le besoin parce qu'elles y avaient pris <quote> &lt; &lt; un goût prononcé &gt; &gt; </quote> , préférant <cit><quote>l'usine pleine de monde au foyer tranquille par haine du travail ménager solitaire</quote>
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+            <bibl source="AndMWivesother">
+                <author ref="#Hewitt">Hewitt</author>,
+                <title type="main" rend="italic">Wives and Mother in Victorian Industry,</title>
+                <abbr rend="italic"> op. cit. </abbr>,
+                <citedRange unit="page">p. 191</citedRange>.
+            </bibl>
+
+        </note></cit>.</p>
+           <p>Alors que la charge de la survie de la famille passait entre les mains des travailleurs hommes, une nouvelle source de conflits entre les hommes et les femmes a surgi avec la question de l'affectation et de la gestion du salaire. Le jour de paie était donc un jour de grande tension, les épouses attendant anxieusement le retour de leur mari, essayant souvent de l'intercepter avant qu'il ne passe au pub y boire le salaire, envoyant parfois leurs fils le chercher, et l'affaire se réglait souvent par un affrontement physique 
+            <note place="bottom" anchored="true" type="bibl" resp="#sf">
+            <bibl>
+                <author>
+                    <name ref="#Seccombe">Seccombe</name>,
+                </author>
+                <title ref="#WTS" rend="italic">Weathering the Storm</title>
+                <ref rend="italic"><abbr>op. cit.</abbr></ref>
+                <citedRange unit="page">p. 146-154</citedRange>.
+            </bibl>
+        </note>. </p>
+           <p>A ce titre, au cours de cette grande transformation, les intérêts des travailleurs et des travailleuses ont commencé à diverger. Car tandis que les syndicats saluaient le nouveau régime domestique qui, dès la Première Guerre modiale, s'était imposé sur tout le territoire industriel, les femmes avaient entamé une trajectoire qui les privait de leur indépendance à l'égard des hommes et les séparait toujours davantage les unes des autres, les contraignant à travailler dans l'espace clos et isolé du foyer, sans disposer d'argent à elles et sans compter les heures de travail.</p>
+        </div>
+        </body>
+    </text>
+
+</TEI>
