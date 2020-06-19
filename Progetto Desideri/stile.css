@@ -1,0 +1,279 @@
+
+
+/* Generali */
+
+body{
+    margin: 0%;
+    padding: 0px;
+    margin-bottom: 2%;
+    position: absolute;
+}
+
+
+div[class="fronte-recto"]{
+    margin: 0.5%;
+    position: relative;
+    height:500px;
+}
+
+div[class="retro-recto"]{
+    margin: 0.5%;
+    position: relative;
+    height:600px;
+}
+
+div[class="fronte-verso"]{
+    margin: 0.5%;
+    position: relative;
+    height:780px;
+}
+
+div[class="retro-verso"]{
+    margin: 0.5%;
+    position: relative;
+    height:600px;
+}
+
+div[class="fronte"]{
+    margin: 0.5%;
+    position: relative;
+    height:450px;
+    top:0;
+}
+
+div[class="retro"]{
+    width:70%;
+    margin: 0.5%;
+    position: relative;
+    top:-250;
+    height:200px;
+}
+
+div[class="note"]{
+    height:700px;
+    position: relative;
+    top:-20;
+}
+
+div[class="termini"]{
+    height:700px;
+    position: relative;
+    top:-20;
+}
+
+section[class="header"]{
+    position: relative;
+    top:0;
+}
+
+section[class="body"]{
+    position: relative;
+    top:0;
+}
+
+section[class="back"]{
+    position: relative;
+    top:100;
+}
+
+p{
+    width: 50%;
+    text-align: left;
+}
+
+p[id="ab_01"]{
+    width: 50%;
+    text-align: left;
+    position: relative;
+    top:-50;
+}
+
+span{
+    width: 50%;
+    text-align: left;
+    position:relative;
+    margin: 0px;
+}
+
+span[id="ab_02"]{
+    width: 50%;
+    position: relative;
+    top:-60;
+    height:100px;
+}
+
+span[class="paratext"]{
+    text-align: right;
+}
+
+img{
+    margin: 10px;
+    z-index: 2;
+}
+
+input {
+    float: right;
+}
+
+
+
+.org{
+    color: red;
+}
+.name{
+    color: green;
+}
+.unclear{
+    color:gray;
+}
+.music-term{
+    color: magenta;
+}
+.work{
+    color: teal;
+}
+.place{
+    color: #cc9900;
+}
+
+
+a{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+
+.testo{
+    text-align: justify;
+    font-size: 110%;
+}
+
+.testo > ul {
+    list-style-type: square;
+    padding-left: 2%;
+}
+
+.testo > ul li{
+    padding-bottom: 1.5%;
+}
+
+.testo > ul li ul{
+    margin-top: 1.5%;
+}
+
+
+h1, h2, h3, h4 {
+    font-family: arial, sans-serif;
+    margin: 0%;
+    padding: 2% 0% 0% 0%;
+}
+
+h1{
+   text-align: center;
+    font-size: 180%;
+    position: relative;
+    text-decoration: underline;
+}
+
+h1[id="title"]{
+    text-align: center;
+     font-size: 180%;
+     position: relative;
+     color:darkred;
+ }
+
+h2{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 160%;
+    position: relative;
+}
+
+h3{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 110%;
+    position: relative;
+}
+
+h4{
+    font-size: 100%;
+    font-style: italic;
+    font-weight: bold;    
+    position: relative;
+    top:0;
+}
+
+hr{
+    z-index: -1;
+}
+
+
+.item_list{
+    font-weight: bold;
+    display: block;
+}
+
+nav{
+    background-color: beige;
+    border: 3px solid darkred;
+    margin:0%;
+    padding: 0,2%;
+    position:fixed;
+    width: 100%;
+    opacity: 100%;
+    z-index: 1;
+
+}
+
+nav > ul >li {
+    display: inline;
+    margin:20px;
+    border: 3px solid darkred;
+    background-color: beige;
+    padding:3px;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+nav > ul {
+    text-align: left;
+}
+
+nav > h3{
+    display: inline;
+    font-size: 130%;
+    bottom:0;
+    padding-top: 0;
+    /*padding-bottom: 20;*/
+}
+
+nav > h1{
+    text-align: center;
+    font-size: 180%;
+    color: darkred;
+    bottom:0;
+    padding-top: 0;
+    padding-bottom: 20;
+}
+
+.header{
+    border: 3px solid darkred;
+    padding: 4px;
+    margin-top: 180px;
+    z-index: 0;
+}
+.body{
+    border: 3px solid darkred;
+    padding: 4px;
+    margin-top: 20px;
+    z-index: 0;
+}
+.back{
+    border: 3px solid darkred;
+    padding: 4px;
+    margin-top: -80;
+    z-index: 0;
+}
+

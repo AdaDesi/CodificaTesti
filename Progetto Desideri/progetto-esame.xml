@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?-->
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt xml:id="LL1.31_I-II">
+				<title xml:id="LL1.31_I">Vincenzo Bellini a destinatario sconosciuto, in Parigi, giugno 1835. </title>
+				<title xml:id="LL1.31_II">Vincenzo Bellini a Eugène Troupenas, in Parigi, giugno 1835. </title>
+				<!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
+				<author ref="#VB">Vincenzo Bellini</author>
+				<respStmt>
+					<resp>Transcription by</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<edition>Digital Edition
+					<date when="2018-06">June 2020</date>
+				</edition>
+				<respStmt>
+					<resp>Digital edition project coordineted by</resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding by</resp>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="EC">Erica Capizzi</name>
+					<name ref="#DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoding letter</resp>
+					<name xml:id="AD">Ada Desideri</name>
+				</respStmt>
+			
+			</editionStmt>
+			<publicationStmt>
+				<publisher />
+				<!-- editore sarà la Fondazione Bellini -->
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+				</availability>
+				<!-- <idno type="url">http://xxxxxx</idno>
+                <date when="yyyyyy" /> va indicato l'uri dell'edizione digitale delle lettere -->
+			</publicationStmt>
+			<sourceDesc>
+				<bibl source="#Seminara2017" resp="#GS" ana="455">
+							<citedRange unit="page" from="525" to="526">pag. 525-526</citedRange>
+				</bibl>
+				<msDesc corresp="#LL1.31">
+					<msIdentifier corresp="#LL1.31">
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436" n="I-CATm">Museo Belliniano Catania</repository>
+						<!-- riferimento al catalogo delle sigle dei musei in cui è definito I-CATm -->
+						<!-- mettere come secondo valore di ref del tag repository l'URI del nodo museo del dataset del Belliniano -->
+						<idno type="inventory" corresp="#LL1.31">LL1.31 (I-II)</idno>						<!-- segnatura della singola lettera -->
+						<altIdentifier corresp="#LL1.31"><idno type="collocation">in esposizione nella casa natale, sala B, vetrina 6, ripiano 1, II</idno></altIdentifier>
+						<!-- collocazione della lettera al museo -->
+					</msIdentifier>
+					<msContents>
+						<msItem corresp="#LL1.31_I">
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a	destinatario sconosciuto, in <placeName ref="#Paris">Parigi</placeName>, <date when="1834-06">giugno 1834</date>
+							</title>
+							<textLang mainLang="fr">Francese con espressioni idiomatiche presumibilmente scorrette<note n="1" type="certainty" resp="#AD">Le espressioni sono ritenute errate perchè non sono corrette in Francese contemporaneo e non sono riconducibili al Francese Antico (che era usato fino al XIV secolo). Potrebbero essere delle forme di Francese ottocentesco, ma si presume che siano degli errori perché sembrano traduzioni letterali di espressioni idiomatiche italiane.</note>.</textLang>
+						</msItem>
+						<msItem corresp="#LL1.31_II">
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a	<persName ref="#ETT">Eugène Troupenas</persName>, in <placeName ref="#Paris">Parigi</placeName>, <date when="1834-06">giugno 1834</date>
+							</title>
+							<textLang mainLang="fr">Francese.</textLang>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>carta sottile</material>
+									<p> Documento composto da due minute di lettere, su due fogli distinti. 
+                                        Un foglio è piegato in due, formando quindi quattro superfici, due esterne e due interne. La prima faccia esterna è la sola a recare del testo.
+                                        Le altre facce del foglio piegato, vuote, sono in condizioni abbastanza buone : nella faccia interna a destra si possono vedere due segni di impronte digitali in basso a destra, e dei leggerissimi segni di inchiostro, che probabilmente sono trapassati dal lato scritto durante la scrittura o la conservazione. 
+                                        Il secondo foglio, invece, non è intero, ed è sciupato su tutti i lati : a sinistra e in basso ci sono segni di strappi che sembrano derivare da un cattivo taglio del foglio; a destra e in alto ci sono segni di usura. Nel retro di questo foglio possiamo vedere altri due segni in alto a sinistra, forse causati dalla colla.
+                                        La carta è sottile e senza filigrana, di colore beige. Il testo è scritto con inchiostro nero.
+					 							<!-- descrizione fisica della lettera -->
+									</p>
+								</support>
+								<extent>
+									<measure corresp="#LL1.31_II" type="folio">2</measure>				<!--  va inserita la quantità dell'oggetto, indicando in type il tipo descritto --> <!-- primo foglio-->
+									<dimensions unit="mm" corresp="#LL1.31_II"> 
+										<height>135</height>
+										<width>102</width>
+                                    </dimensions>
+                                    <measure corresp="#LL1.31_I" type="folio">1</measure> <!-- secondo foglio-->
+                                    <dimensions unit="mm" corresp="#LL1.31_I"> 
+										<height>97</height>
+										<width>133</width>
+									</dimensions>
+								</extent>
+								<foliation>
+									<p>		<!-- es. folio verso a sx, folio recto a dx con suddivisioni ulteriori. -->
+                                            Il <ref target="#LL1.31_II">foglio superiore</ref> è piegato in due parti uguali.
+											Il <ref target="#LL1.31_I">foglio inferiore</ref> è attaccato alla superfice frontale del <ref target="#LL1.31_II">primo foglio</ref> con della colla.
+										</p>
+								</foliation>
+								<condition>
+									<!-- descrizione delle condizioni fisiche di conservazione della lettera -->
+									<p>Il <ref target="#LL1.31_II">primo foglio</ref> è in condizioni abbastanza buone, il <ref target="#LL1.31_I">secondo</ref> invece è in condizioni peggiori, ma il testo rimane leggibile.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						<handDesc hands="3">
+							<handNote corresp="#VB"><p>
+                                Scrittura a mano libera leggibile. Presenti due correzioni ed una cancellatura nel <ref target="#LL1.31_I">secondo foglio</ref>. 
+							</p></handNote>
+							<handNote xml:id="h2">
+								<p>Scrittura a mano libera poco leggibile; probabilmente si tratta di un codice di una vecchia catalogazione francese, seguito da una firma cifrata. Questi segni appaiono sul lato scritto di entrambi i fogli.
+								</p>
+							</handNote>
+							<handNote xml:id="h1">	
+								<p> Scrittura a mano libera leggibile; probabilmente numeri di una vecchia catalogazione, a matita blu. Questi segni appaiono sull'ultima faccia del <ref target="#LL1.31_II">primo foglio</ref>.
+								</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note n="2" type="ann_notes">		<!-- descrizione del significato della segnatura della lettera -->
+								All'interno del carteggio belliniano (LL), la segnatura LL1.31 identifica la trentunesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+												<!-- Note aggiuntive non strutturabili con altri tag TEI -->
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<correspDesc ref="#LL1.31_I"> 
+				<correspAction type="sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="#Paris" type="writing">Parigi</placeName>
+					<date when="1834-06" type="postmark">giugno 1834</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#unknownPers">Monsieur Frederic</persName>
+					<placeName ref="#Paris" type="receving">Paris</placeName>
+					<date when="1834-06">giugno 1834</date>			
+				</correspAction >
+				<correspContext >
+					<p>Del destinatario del messaggio non si conosce più del suo nome (<persName ref="#unknownPers">Frederic</persName>), ma sembra che lui e <persName ref="#VB" role="composer">Bellini</persName> avessero parlato dell'accordatura di un pianoforte precedentemente alla scrittura di queste righe. Il <persName ref="#unknownPers">signor Frederic</persName> sembra d'altra parte sapere che l'alloggio di <persName ref="#VB" role="composer">Bellini</persName> è vicino ai <orgName ref="#Bains_Chinois">Bains Chinois</orgName>.</p>
+				</correspContext>
+			</correspDesc>
+			<correspDesc ref="#LL1.31_II">
+				<correspAction type="sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="#Paris" type="receving">Parigi</placeName>
+					<date when="1834-06">giugno 1834</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#ETT">Eugène Troupenas</persName>
+					<placeName ref="#Paris" type="writing">Paris</placeName>
+					<date when="1834-06" type="postmark">giugno 1834</date>			
+				</correspAction >
+				<correspContext>
+					<p>Dal testo di questa minuta, si può dedurre che <persName ref="#VB" role="composer">Bellini</persName> e <persName ref="#ETT">Troupenas</persName> avessero già parlato di una persona che chiedeva la <term type="music-term" ref="#partitura">partitura</term> dei <term type="work" ref="#Puritani">Puritani</term>.</p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">			
+					<term resp="#GS"> Minuta di lettera 					
+					</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="fr" corresp="#LL1.31_I">Francese.</language>
+				<language ident="fr" corresp="#LL1.31_II">Francese con espressioni idiomatiche presumibilmente scorrette.</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+	<!--******************************************************************************************************************-->
+	<!--******************************************************************************************************************-->
+	<facsimile>
+		<surfaceGrp>
+			<surfaceGrp n="1">
+				<surface n="1" points = ' 87,44 1284,38 1281,1616 91,1632 ' xml:id="LL1.31_folio_1fr">
+					<graphic url="LL1.31_I-II_folio_1.jpg" width='1645px' height='2642px'/>
+					<zone points = ' 263,138 1273,139 1273,291 257,306 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_01"/>
+					<zone points = ' 256,309 234,413 1275,404 1274,295 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_02"/>
+					<zone points = ' 209,420 202,532 1276,515 1279,408 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_03"/>
+					<zone points = ' 202,535 198,663 1249,646 1237,524 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_04"/>
+					<zone points = ' 200,669 202,768 1021,720 1021,642 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_05"/>
+					<zone points = ' 799,828 1150,786 1162,1453 805,1449 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_II_hotspot_1fr_01"/> <!--ROBO STRANO-->
+					<pb n="2" rend="overlap" xml:id="LL1.31_folio_2f"/>
+					<zone points = ' 593,1433 789,1418 853,1572 612,1600 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1fr_02"/> <!--COLLA-->
+				</surface>
+				<surface n="1" points = ' 80,1462 1621,1464 1620,2611 38,2606 ' corresp="#LL1.31_folio_2f">
+					<graphic url="LL1.31_I-II_folio_1.jpg" width='1645px' height='2642px'/>
+					<zone points = ' 1154,1498 787,1582 845,2290 1050,2276 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_I_hotspot_2f_01"/> <!--ROBO STRANO-->
+					<zone points = ' 420,1959 412,2065 1428,2086 1440,2005 1440,2004 1444,1998 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_01"/>
+					<zone points = ' 334,2066 326,2175 1147,2176 1346,2173 1540,2209 1554,2090 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_02"/>
+					<zone points = ' 320,2183 1535,2195 1532,2286 312,2285 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_03"/>
+					<zone points = ' 1146,2176 1138,2270 1371,2275 1376,2175 ' rendition="Hotspot" hand="#VB" xml:id="LL1.31_I_hotspot_2f_02"/> <!--PRIMA CORREZIONE-->
+					<zone points = ' 309,2289 292,2381 1440,2382 1459,2286 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_04"/>
+					<zone points = ' 300,2380 298,2470 1615,2479 1616,2384 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_05"/>
+					<zone points = ' 854,2378 843,2472 1295,2467 1297,2388 ' rendition="Hotspot" hand="#VB" xml:id="LL1.31_I_hotspot_2f_03"/> <!--SOTTOLINEATO-->
+					<zone points = ' 299,2472 294,2545 1508,2566 1509,2476 ' rendition="Line" xml:id="LL1.31_I_line_2f_06"/>
+					<zone points = ' 975,2463 1192,2463 1193,2556 960,2554 ' rendition="Hotspot" hand="#VB" xml:id="LL1.31_I_hotspot_2f_04"/> <!--SECONDA CORREZIONE-->
+					<zone points = ' 1195,2477 1173,2552 1492,2561 1499,2486 ' rendition="Hotspot" xml:id="LL1.31_I_hotspot_2f_06"/> <!--DANNO-->
+				</surface>
+			</surfaceGrp>
+
+			<surfaceGrp n="2">
+				<surface n="2" points = ' 283,133 795,133 795,817 279,816 ' xml:id="LL1.31_folio_1rr">
+					<graphic url='LL1.31.I-II_folio_2.jpg' width='1240px' height='1755px' />
+					<pb n="2" rend="overlap" corresp="#LL1.31_folio_2r"/>
+					<zone points = ' 470,731 583,728 584,803 466,802 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1rr_01"/> <!--COLLA-->
+				</surface>
+				<surface n="2" points = ' 132,746 797,744 815,1237 135,1241 ' corresp="#LL1.31_folio_2r">
+					<graphic url='LL1.31.I-II_folio_2.jpg' width='1240px' height='1755px' />
+
+				</surface>
+			</surfaceGrp>
+
+			<surface n="3" points = ' 143,136 972,133 960,1238 139,1236 ' xml:id="LL1.31_folio_1rv">
+				<graphic url='LL1.31.I-II_folio_3.jpg' width='1240px' height='1755px' />
+			</surface>
+
+			<surfaceGrp n="4">
+				<surface n="4" points = ' 285,130 802,135 795,817 284,813 ' xml:id="LL1.31_folio_1fv">
+					<graphic url='LL1.31.I-II_folio_4.jpg' width='1240px' height='1755px' />
+					<pb n="2" rend="overlap" corresp="#LL1.31_folio_2r"/>
+					<zone points = ' 742,656 757,788 559,796 556,663 ' rendition="Hotspot" hand="h1" xml:id="LL1.31_II_hotspot_1fv_01"/> <!--SEGNI A MATITA BLU DELLA CATALOGAZIONE-->
+				</surface>
+				<surface n="4"  points = ' 139,742 802,746 814,1234 134,1235 ' corresp="#LL1.31_folio_2r">
+					<graphic url='LL1.31.I-II_folio_4.jpg' width='1240px' height='1755px' />
+				</surface>
+			</surfaceGrp>
+		</surfaceGrp>
+	</facsimile>
+
+	<!--******************************************************************************************************************-->
+	<!--******************************************************************************************************************-->
+	<text type="minuta di lettera" xml:id="LL1.31" subtype="manuscript" n="LL1.31">
+		<body xml:lang="fr">
+			<div type="fronte-recto"> <!--fronte prima pagine della lettera superiore-->
+				<pb n="1(II)" xml:id="LL1.31_II_fol_1fr" facs="#LL1.31_folio_1fr"/>
+				<div type="letter-body" n="t_01">
+					<ab type="parag" rend="all_indented" n="ab_01">
+					<lb xml:id="LL1.31_II_lb_1fr_01" n="1" facs="#LL1.31_II_line_1fr_01"/>
+					J'aurais besoin de savoir
+					<lb xml:id="LL1.31_II_lb_1fr_02" n="2" facs="#LL1.31_II_line_1fr_02"/>
+					le nom de la personne qui
+					<lb xml:id="LL1.31_II_lb_1fr_03" n="3" facs="#LL1.31_II_line_1fr_03"/>
+					vous a demandé la <term type="music-term" ref="#partitura">partition</term>
+					<lb xml:id="LL1.31_II_lb_1fr_04" n="4" facs="#LL1.31_II_line_1fr_04"/>
+					des <term type="work" ref="#Puritani" rend="underline">Puritains</term> pour le
+					<lb xml:id="LL1.31_II_lb_1fr_05" n="5" facs="#LL1.31_II_line_1fr_05"/>
+					<orgName ref="#Semperoper">Theatre de Dresde</orgName>
+					</ab>
+					<space dim="vertical" rend="left"/>
+					<ab n="ab_02" type="paratext" subtype="addition" hand="h2" xml:id="LL1.31_hs_1fr_01" facs="#LL1.31_II_hotspot_1fv_01" rend="color(black) material(ink) align(bottom-right)">
+						<fw type="catalogueNum" xml:id="_5">
+							<floatingText type="oldCat">
+								<body xml:id="LL1.31_II_hs_1fr_01" facs="#LL1.31_II_hotspot_1fr_01">
+									<p hand="h2">
+										<lb n="1"/>
+										<unclear reason="eccentric_ductus"><num type="ordinal" value="5" xml:id="_5eme">Cinquieme</num></unclear>
+										<lb n="2"/>
+										<unclear reason="eccentric_ductus">Cote fil</unclear>
+										<signatures xml:id="_GB"><unclear reason="eccentric_ductus">GB</unclear></signatures>
+									</p>
+									<note n="3" type="certainty" resp="#AD" xml:lang="it" corresp="#_5"> Si presume che si tratti di una vecchia catalogazione perché, in Francese, <mentioned xml:lang="fr">cote</mentioned> indica la numerazione dei cartoni di un fondo archivistico e <mentioned corresp="#_5eme" xml:lang="fr">cinquième</mentioned> significa <num type="ordinal" value="5">quinto</num>. I caratteri che sembrano corrispondere alla parola <mentioned xml:lang="fr">fil</mentioned> terminano in un segno che potrebbe essere la firma del catalogatore, forse le iniziali <mentioned corresp="#_GB">GB</mentioned>. Della presunta parola <mentioned xml:lang="fr">fil</mentioned> non si conosce il significato in questo contesto.</note>
+								</body>
+							</floatingText>
+						</fw>
+					</ab>
+					<pb  n="1(I)" xml:id="LL1.31_I_fol_2f" facs="#LL1.31_folio_2f"/>
+				</div>
+			</div>
+			<join target="#LL1.31_II_fol_1fr #LL1.31_I_fol_2f">
+				<desc> <!--material meglio di ab e objectType-->
+					<material> <damage facs="#LL1.31_II_hotspot_1fr_02" rend="color(brown) align(center)" agent="glue" extent="small">Segno della colla che unisce i due fogli.</damage> </material>
+				</desc>
+			</join>
+			<div type="fronte"> <!--fronte della lettera inferiore-->
+				<pb n="1(I)" corresp="#LL1.31_I_fol_2f" facs="#LL1.31_folio_2f"/>
+				<div type="letter-body" n="t_02">
+					<space  dim="horizontal" rend="left"/>
+					<ab n="ab_03" type="paratext" subtype="addition" hand="h2" xml:id="LL1.31_hs_1fr_02" facs="#LL1.31_II_hotspot_1fv_03" rend="color(black) material(ink) align(center)">
+						<fw type="catalogueNum" xml:id="_14">
+							<floatingText type="oldCat">
+								<body xml:id="LL1.31_II_hs_1fr_03" facs="#LL1.31_II_hotspot_1fr_03">
+									<p hand="h2">
+										<lb n="1"/>
+										<unclear reason="eccentric_ductus"><num type="ordinal" value="14" xml:id="_14eme">Quatorzième</num></unclear>
+										<lb n="2"/>
+										<unclear reason="eccentric_ductus">Cote fil</unclear>
+										<signatures corresp="#_GB"><unclear reason="eccentric_ductus">GB</unclear></signatures>
+									</p>
+									<note n="4" type="certainty" resp="#AD" xml:lang="it" corresp="#_14"> Come sopra, si presume che si tratti di una vecchia catalogazione perché, in Francese, <mentioned xml:lang="fr">cote</mentioned> indica la numerazione dei cartoni di un fondo archivistico e <mentioned corresp="#_14eme" xml:lang="fr">quatorzième</mentioned> significa <num type="ordinal" value="14">quattordicesimo</num>. I caratteri che sembrano corrispondere alla parola <mentioned corresp="#fil1" xml:lang="fr">fil</mentioned> terminano in un segno che potrebbe essere la firma del catalogatore, forse le iniziali <mentioned corresp="#_GB">GB</mentioned>. Della presunta parola <mentioned corresp="#fil1" xml:lang="fr">fil</mentioned> non si conosce il significato in questo contesto.</note>
+								</body>
+							</floatingText>
+						</fw>
+					</ab>
+					<space dim="horizontal" rend="right"/>
+					<ab n="ab_04" type="parag" rend="right_down_aligned">
+						<lb xml:id="LL1.31_I_lb_2f_01" n="1" facs="#LL1.31_I_line_2f_01"/>
+						Monsieur <persName ref="#VB" role="composer"> Bellini </persName> prie Monsieur
+						<lb xml:id="LL1.31_I_lb_2f_02" n="2" facs="##LL1.31_I_line_2f_02"/>
+						<persName ref="#unknownPers">Frederic</persName> de vouloir passer
+							<choice>
+								<sic resp="#VB" cert="medium/high">de chez lui</sic>
+								<corr resp="#AD" cert="high">chez lui</corr>
+							</choice>,
+						<lb xml:id="LL1.31_I_lb_2f_03" n="3" facs="#LL1.31_I_line_2f_03"/>
+						aux <orgName ref="#Bains_Chinois">Bains Chinois</orgName> pour 
+							<subst facs="#LL1.31_I_hotspot_2f_02"> 
+								<del hand="#VB" rend="overstrike; underline"> 
+								<gap reason="ink blot" agent="ink" quantity="1" unit="word"/> 
+							</del> 
+							<add hand="#VB" place="above">accorder</add> 
+							</subst> son
+						<lb xml:id="LL1.31_I_lb_2f_04" n="4" facs="#LL1.31_I_line_2f_04"/>
+						piano, et 
+							<choice>
+								<sic resp="#VB" cert="medium/high">dans le même temps</sic>
+								<corr resp="#AD" cert="high">au même temps</corr>
+							</choice>
+						<lb xml:id="LL1.31_I_lb_2f_05" n="5" facs="#LL1.31_I_line_2f_05"/>
+						lui apporter une 
+							<hi facs="#LL1.31_I_hotspot_2f_03">
+								<choice>
+									<sic resp="#VB" cert="high" rend="underline">cléfs d'accorder</sic>
+									<corr resp="#AD" cert="high">clef d'accord</corr>
+								</choice>
+							</hi> n'ayant
+						<lb xml:id="LL1.31_I_lb_2f_06" n="6" facs="#LL1.31_I_line_2f_06"/>
+							<choice>
+								<sic resp="#VB" cert="high">recû</sic> 
+								<corr resp="#AD" cert="high">reçu</corr>
+							</choice>
+							la sienne, qui 
+							<choice facs="#LL1.31_I_hotspot_2f_04">
+								<sic resp="#VB" cert="high" rend="overstrike">
+									erait
+								</sic>
+								<corr resp="#VB" rend="above">
+									était
+								</corr>
+								</choice>
+							<gap reason="ink blot" agent="ink" quantity="1" unit="word" facs="#LL1.31_I_hotspot_2f_06"/>
+						</ab>
+					</div>
+				</div>
+			<!--******************************************************************************************************************-->
+			<div type="retro-recto"> <!--retro prima pagine della lettera superiore-->
+				<pb n="2(II)" xml:id="LL1.31_II_fol_1rr" facs="#LL1.31_folio_1rr"/>	
+					<space dim="vertical">
+						<desc>Inchiostro trapassato visibile sul retro del foglio.</desc>
+					</space>
+
+				<space dim="vertical" rend="right">
+					<desc>Piegatura in cui si vede un pezzetto del <ref target="#LL1.31_II_page_1rv" facs="#LL1.31_folio_1rv">fronte della seconda pagina</ref>.
+					</desc>
+				</space>
+
+			</div>
+
+			<join target="#LL1.31_II_fol_1rr #LL1.31_I_fol_2r">
+				<desc> <!--material meglio di ab e objectType-->
+					Retro della giuntura tra i due fogli, con <ref facs="LL1.31_II_hotspot_1rr_01">segno di colla</ref>.
+				</desc>
+			</join>
+
+			<div type="retro"> <!--retro seconda pagina della lettera inferiore-->
+				<pb n="2(I)" xml:id="LL1.31_I_fol_2r" facs="#LL1.31_folio_2r"/>
+					<space dim="horizontal">
+						<desc>Inchiostro trapassato visibile sul retro del foglio.</desc>
+					</space>
+			</div>
+
+			
+			<!--******************************************************************************************************************-->
+			<div type="fronte-verso">
+				<pb n="3(II)" xml:id="LL1.31_II_fol_1fv" facs="#LL1.31_folio_1fv"/> <!--fronte della seconda pagina della lettera superiore-->
+				<space dim="vertical" rend="left">
+					<desc>Piegatura in cui si vede un pezzetto del <ref target="#LL1.31_II_fol_1rr" facs="#LL1.31_folio_1rr">retro della prima pagina</ref>.
+					</desc>
+				</space>
+
+				<space dim="vertical">
+					<desc>Leggerissimi segni di inchiostro, trapassato dalla <ref target="#LL1.31_II_fol_1fr" facs="#LL1.31_folio_1fr">prima pagina.</ref>
+					</desc>
+				</space>
+			</div>
+
+			<!--******************************************************************************************************************-->
+			<div type="retro-verso">
+				<pb n="4(II)" xml:id="LL1.31_II_fol_1rv" facs="#LL1.31_folio_1rv"/> <!--retro della seconda pagina della lettera superiore--> 
+				<ab n="ab_05" type="paratext" subtype="addition" hand="h1" xml:id="LL1.31_hs_1fv_01" facs="#LL1.31_II_hotspot_1fv_01" rend="color(blu) material(pencil) align(bottom-right) slanted(bottom-left to top-right)">
+					<fw type="catalogueNum">
+						<idno type="oldCat" cert="medium">
+							(108) ('7)
+						</idno>
+					</fw>
+				</ab>
+			</div>
+
+			<div type="retro"> <!--retro seconda pagina della lettera inferiore-->
+				<pb n="2(I)" corresp="#LL1.31_I_fol_2r" facs="#LL1.31_folio_2r"/>
+					<space dim="horizontal">
+						<desc>Inchiostro trapassato visibile sul retro del foglio.</desc>
+					</space>
+			</div>
+		</body>
+
+		<!--******************************************************************************************************************-->
+		<!--******************************************************************************************************************-->
+		<back>
+			<!-- inserire le note -->
+			<div type="notes">
+				<div type="ann_notes">	<!-- indicare con resp se le note sono dell'edizione critica o di altra responsabilità-->
+					<note n="5" xml:id="LL1_31_I_note1" resp="#EC">
+						<p>
+							Il destinatario della lettera LL1.31(I) non è stato identificato.
+						</p>
+					</note>
+					<note n="6" xml:id="LL1_31_note1" resp="#AD">
+						<p>
+							Entrambe le lettere sono incomplete.
+						</p>
+					</note>
+				</div>
+
+				<div type="bibliography">
+					<listBibl xml:id="LL1_31_I_bibliography">
+						<head>Bibliography of the letter LL1.31(I)</head>
+						<bibl xml:id="LL1_31_I_Policastro">
+							 	<ref target="#Policastro">
+									 <bibl>
+										<author>Policastro</author>
+										<citedRange unit="page" from="83" to="83">83</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+						<bibl xml:id="LL1_31_I_Cambi1943">
+							<ref target="#Cambi1943">
+								<bibl>
+									<author>Cambi</author>
+									<date when="1943">1943</date>
+									<citedRange unit="page" from="466" to="466">466</citedRange>
+								</bibl>
+							</ref>
+					</bibl>
+						<bibl xml:id="LL1_31_I_Neri">
+								<ref target="#Neri2005">
+									<bibl>
+										<author>Neri</author>
+										<date when="2005">2005</date>
+										<citedRange unit="page" from="342" to="342">342</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+						<bibl xml:id="LL1_31_I_Seminara">
+							<ref target="#Seminara2017">
+								<bibl>
+									<author>Seminara</author>
+									<date when="2017">2017</date>
+									<citedRange unit="page" from="525" to="526">525-526</citedRange>
+								</bibl>
+							</ref>
+					</bibl>
+					</listBibl>
+
+
+					<listBibl xml:id="LL1_31_II_bibliography">
+						<head>Bibliography of the letter LL1.31(II) </head>
+						<bibl xml:id="LL1_31_II_Neri">
+								<ref target="#Neri2005">
+									<bibl>
+										<author>Neri</author>
+										<date when="2005">2005</date>
+										<citedRange unit="page" from="422" to="422">422</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+						<bibl xml:id="LL1_31_II_Seminara">
+							<ref target="#Seminara2017">
+								<bibl>
+									<author>Seminara</author>
+									<date when="2017">2017</date>
+									<citedRange unit="page" from="526" to="526">526</citedRange>
+								</bibl>
+							</ref>
+					</bibl>
+					</listBibl>
+				</div>
+			</div>
+			<div type="lists">
+				<listPerson xml:id="LL1.31_persons">
+					<person xml:id="VB">
+						<persName>
+							<forename>Vincenzo</forename>
+							<surname>Bellini</surname>
+							<gloss source="https://it.wikipedia.org/wiki/Vincenzo_Bellini">
+								Compositore italiano dell'Ottocento.
+							</gloss>
+						</persName>
+					</person>
+					<person xml:id="ETT">
+						<persName>
+							<forename>Eugène-Théodore</forename>
+							<surname>Troupenas</surname>
+							<gloss source="https://data.bnf.fr/fr/14996555/eugene_troupenas/">
+								Matematico e editore musicale francese dell'Ottocento.
+							</gloss>
+						</persName>
+					</person>
+					<person xml:id="unknownPers">
+						<persName>
+							<forename>Monsieur Frederic</forename>
+							<gloss>
+								Destinatario sconosciuto.
+							</gloss>
+						</persName>
+					</person>
+				</listPerson>
+				<listPlace>
+					<place xml:id="Paris" source="https://it.wikipedia.org/wiki/Parigi">
+						<placeName>Parigi</placeName>
+					</place>
+				</listPlace>
+				<list type="works">
+					<item>
+						<bibl xml:id="Puritani" source="https://it.wikipedia.org/wiki/I_puritani">
+							<author ref="#VB">V. Bellini</author>
+							<title>I Puritani</title>
+						</bibl>
+					</item>
+				</list>
+				<list type="terms">
+					<item>
+						<term xml:lang="fr" xml:id="partitura" type="music-term">Partition</term>
+						<gloss target="#partitura" source="http://www.treccani.it/vocabolario/partitura/"/>
+						<note n="7" type="translation" xml:lang="it" target="#partitura">Partitura.</note>
+					</item>
+					<item>
+						<term xml:lang="fr" xml:id="chiave_accordo" type="music-term">Clef d'accord</term>
+						<gloss target="#chiave_accordo" source="https://www.larousse.fr/dictionnaires/francais/cl%C3%A9/16478"/>
+						<note n="8" type="translation" xml:lang="it" target="#chiave_accordo">Chiave d'accordo.</note>
+					</item>
+				</list>
+				<listOrg>
+					<org xml:id="Bains_Chinois" source="https://fr.wikipedia.org/wiki/Bains_chinois">
+						<orgName>Bains Chinois</orgName>
+					</org>
+					<org xml:id="Semperoper" source="https://it.wikipedia.org/wiki/Semperoper">
+						<orgName xml:lang="de"> Semperoper (<addName xml:lang="fr">Theatre de Dresde</addName>)
+						</orgName>
+					</org>
+				</listOrg>
+			</div>
+		</back>
+	</text>
+</TEI>
